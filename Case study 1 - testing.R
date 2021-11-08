@@ -19,6 +19,7 @@ d06_2021 <- read_csv("202106-divvy-tripdata.csv")
 d07_2021 <- read_csv("202107-divvy-tripdata.csv")
 d08_2021 <- read_csv("202108-divvy-tripdata.csv")
 d09_2021 <- read_csv("202109-divvy-tripdata.csv")
+
 #====================================================
 # STEP 2: WRANGLE DATA AND COMBINE INTO A SINGLE FILE
 #====================================================
