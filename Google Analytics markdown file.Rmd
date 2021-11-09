@@ -1,0 +1,48 @@
+---
+title: "Google Analytics Capstone Project"
+author: "Trang Vu"
+date: "09/11/2021"
+output:
+  html_document:
+    df_print: paged
+---
+##Import libraries
+```{r}
+#Import libraries
+library(tidyverse)  #helps wrangle data
+library(lubridate)  #helps wrangle date attributes
+library(ggplot2)  #helps visualize data
+```
+
+## Load data files
+
+This is an R Markdown document.
+
+```{}
+#=====================
+# STEP 1: COLLECT DATA
+#=====================
+# Upload Divvy datasets (csv files) here
+d10_2020 <- read_csv("202010-divvy-tripdata.csv")
+d11_2020 <- read_csv("202011-divvy-tripdata.csv")
+d12_2020 <- read_csv("202012-divvy-tripdata.csv")
+d01_2021 <- read_csv("202101-divvy-tripdata.csv")
+d02_2021 <- read_csv("202102-divvy-tripdata.csv")
+d03_2021 <- read_csv("202103-divvy-tripdata.csv")
+d04_2021 <- read_csv("202104-divvy-tripdata.csv")
+d05_2021 <- read_csv("202105-divvy-tripdata.csv")
+d06_2021 <- read_csv("202106-divvy-tripdata.csv")
+d07_2021 <- read_csv("202107-divvy-tripdata.csv")
+d08_2021 <- read_csv("202108-divvy-tripdata.csv")
+d09_2021 <- read_csv("202109-divvy-tripdata.csv")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
